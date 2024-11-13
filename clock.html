@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    
+    <!-- <div id="tariq">
+        TARIQ
+    </div> -->
+    
+
+    <!-- <div id="tariq" style="
+        color: green;
+        font-size: 20px;
+        background-color:white;
+        padding: 10px;
+        border: 0px solid wheat;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 600px;
+        height: 80px;
+        position: absolute; /* Position it at the top */
+        top: 0; /* Align to the top */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Adjust position to truly center */
+        display: flex;
+        align-items: center; /* Center text vertically */
+        justify-content: center; /* Center text horizontally */
+        border-radius: 40%; /* Makes the element rounded */
+        box-shadow: 20px 10px 20px rgb(94, 89, 94);
+">
+✨ TARIQ, THE WORLD IS WAITING FOR YOUR BRILLIANCE! ✨
+
+</div> -->
+
+
+<div id="tariq" style="
+color: green;
+font-size: 20px;
+background-color:#F1C40F;
+padding: 10px;
+border: 0px solid wheat;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width: 600px;
+height: 80px;
+position: absolute; /* Position it at the top */
+top: 20px; /* Align to the top */
+left: 50%; /* Center horizontally */
+transform: translateX(-50%); /* Centering */
+display: flex;
+align-items: center; /* Center text vertically */
+justify-content: center; /* Center text horizontally */
+border-radius: 40%; /* Makes the element rounded */
+box-shadow: 20px 10px 20px rgb(94, 89, 94);
+animation: runAnimation 2s ease-in-out infinite; /* Apply animation */
+">
+<style>
+@keyframes runAnimation {
+    0% {
+        transform: translateX(-50%);
+    }
+    50% {
+        transform: translateX(-40%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #tariq {
+        width: 90%; /* Responsive width */
+        font-size: 18px; /* Slightly smaller font */
+        height: 60px; /* Adjust height */
+        padding: 8px; /* Adjust padding */
+    }
+}
+
+@media (max-width: 480px) {
+    #tariq {
+        width: 95%; /* Further responsive width */
+        font-size: 16px; /* Smaller font size */
+        height: 50px; /* Adjust height */
+        padding: 5px; /* Adjust padding */
+    }
+}
+</style>
+✨ TARIQ, THE WORLD IS WAITING FOR YOUR BRILLIANCE! ✨
+</div>
+    
+    <div id="clock">
+        
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
